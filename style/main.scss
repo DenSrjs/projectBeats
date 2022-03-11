@@ -35,12 +35,12 @@ $mobiles: 480px;
   .container{
     width: $adaptiveWidth;
   }
-  @import "./adaptive-tablet/adaptive-tablet";
+  @import "adaptive-tablet/adaptive-tablet";
 }
 
 @media  (max-width: $mobiles){
   .container{
     width: $adaptiveWidth;
   }
-  @import "./adaptive-mobile/adaptive-mobile";
+  @import "adaptive-mobile/adaptive-mobile";
 }
