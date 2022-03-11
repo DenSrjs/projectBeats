@@ -1,0 +1,159 @@
+.menu,
+.contacts,
+.fixed-menu,
+.specifications__list {
+  display: none;
+}
+
+.header {
+  position: relative;
+}
+.header__logo:after {
+  content: url("../../image/adaptive_tablet/gamburger_menu.png");
+  position: absolute;
+  top: 1.93rem;
+  right: 0;
+}
+
+.hello-section__container {
+  background: url("../../image/hello-section/headphones.png") center top 25%/50% auto no-repeat;
+}
+
+.hello-section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  width: 100%;
+  max-width: 41.56rem;
+}
+
+.hello-section__title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.31rem;
+}
+
+.hello-section__caption {
+  max-width: 23.18rem;
+  text-align: center;
+  margin-bottom: 1.43rem;
+}
+
+.content__item:before {
+  display: none;
+}
+
+.feedback__user {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feedback__img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 2rem;
+}
+
+.feedback__avatar {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.feedback__user {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem;
+}
+
+.feedback__context {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feedback__subtitle, .feedback__text {
+  margin-bottom: 1rem;
+}
+
+.form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 8rem;
+}
+
+.form__col {
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form__button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__btn-reset {
+  color: red;
+}
+
+.footer__contacts .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+}
+
+.contacts__img {
+  content: url("../../image/contacts/red_phone.png");
+}

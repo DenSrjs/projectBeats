@@ -1,0 +1,90 @@
+
+//=========== features-section ===========
+.features__hero{
+  width: 100%;
+}
+
+.features__title{
+  font-size: 2rem;
+}
+
+.features__subtitle{
+  width: 100%;
+  padding: 0;
+}
+
+.content{
+  text-align: left;
+}
+
+.content__img{
+  margin-bottom: 0;
+  margin-right: .75rem;
+}
+
+.content__list{
+  display: block;
+}
+
+.content__item{
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 2rem;
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.content__text{
+  width: 65%;
+}
+
+.content__desc{
+  padding: 0;
+}
+
+//============ feedback-section ==============
+
+.feedback__title{
+  font-size: 2rem;
+}
+.feedback__user{
+  padding-top: 3.5rem;
+  &:before{
+    display: none;
+  }
+}
+
+//============= form-section ===============
+
+.form{
+  padding: 0;
+  &__title{
+    font-size: 2rem;
+  }
+}
+
+//============== footer =====================
+
+.footer__block, .footer__contacts{
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contacts{
+  margin-bottom: 1.18rem;
+  & .contacts{
+    display: flex;
+    justify-content: center;
+    color: $black;
+  }
+}
+
+.footer__address{
+  margin-bottom: .75rem;
+}
+
+.contacts__img{
+  content: url("../../image/contacts/phone.png");
+}
