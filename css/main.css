@@ -672,6 +672,16 @@ img {
     width: 95%;
   }
 
+  .header {
+    position: relative;
+  }
+  .header__logo:after {
+    content: url("../image/adaptive_tablet/gamburger_menu.png");
+    position: absolute;
+    top: 1.93rem;
+    right: 0;
+  }
+
   .hello-section__container {
     background: url("../image/hello-section/headphones.png") center top 25%/50% auto no-repeat;
   }
@@ -681,16 +691,6 @@ img {
 .fixed-menu,
 .specifications__list {
     display: none;
-  }
-
-  .header {
-    position: relative;
-  }
-  .header__logo:after {
-    content: url("../../image/adaptive_tablet/gamburger_menu.png");
-    position: absolute;
-    top: 1.93rem;
-    right: 0;
   }
 
   .hello-section__main {

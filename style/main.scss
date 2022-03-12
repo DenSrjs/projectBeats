@@ -35,6 +35,15 @@ $mobiles: 480px;
   .container{
     width: $adaptiveWidth;
   }
+  .header{
+    position: relative;
+    &__logo:after{
+      content: url("../image/adaptive_tablet/gamburger_menu.png");
+      position: absolute;
+      top: 1.93rem;
+      right: 0;
+    }
+  }
   .hello-section__container{
     background: url("../image/hello-section/headphones.png") center top 25% / 50% auto no-repeat;
   }
