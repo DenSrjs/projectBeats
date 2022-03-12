@@ -672,10 +672,6 @@ img {
     width: 95%;
   }
 
-  .hello-section__container {
-    background: url("../image/hello-section/headphones.png") center top 25%/50% auto no-repeat;
-  }
-
   .menu,
 .contacts,
 .fixed-menu,
@@ -691,6 +687,10 @@ img {
     position: absolute;
     top: 1.93rem;
     right: 0;
+  }
+
+  .hello-section__container {
+    background: url("../../image/hello-section/headphones.png") center top 25%/50% auto no-repeat;
   }
 
   .hello-section__main {
