@@ -7,7 +7,7 @@ body{
   font-size: $baseFontSize;
   font-family: $play;
   line-height: 1.42;
-  color: $black;
+  color: $Text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -82,7 +82,13 @@ img{
   justify-content: center;
 }
 
+.logo{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .button{
+  font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
   padding: 1.12rem 2.56rem;
@@ -90,4 +96,13 @@ img{
   color: #fff;
   border-radius: 100px;
   border: none;
+  transition: .3s;
+  &:hover{
+    background: $btnActive;
+  }
+}
+
+.form__btn-reset:hover{
+  background: none;
+  color: red;
 }

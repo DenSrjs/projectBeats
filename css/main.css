@@ -93,7 +93,13 @@ img {
           justify-content: center;
 }
 
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .button {
+  font-size: 1rem;
   text-transform: uppercase;
   display: inline-block;
   padding: 1.12rem 2.56rem;
@@ -101,6 +107,16 @@ img {
   color: #fff;
   border-radius: 100px;
   border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.button:hover {
+  background: #CA1B36;
+}
+
+.form__btn-reset:hover {
+  background: none;
+  color: red;
 }
 
 .hello-section {
@@ -138,7 +154,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 1.12rem;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
 }
 .menu__item {
@@ -185,7 +201,7 @@ img {
 
 .contacts__phone {
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 /*===========================================================================================================*/
@@ -202,7 +218,7 @@ img {
 }
 
 .hello-section__caption {
-  font-size: 21px;
+  font-size: 1.31rem;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
   margin-bottom: 2.25rem;
@@ -246,7 +262,7 @@ img {
 
 .features__title {
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 0.43rem;
@@ -257,6 +273,7 @@ img {
   padding: 0 20%;
   font-weight: normal;
   color: #666;
+  font-size: 1rem;
 }
 
 .content__list {
@@ -317,12 +334,13 @@ img {
 
 .content__title {
   margin-bottom: 0.43rem;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .content__desc {
   padding: 0 6%;
+  font-size: 1rem;
   line-height: 1.2;
 }
 
@@ -353,7 +371,7 @@ img {
 .feedback__title {
   text-align: center;
   margin-bottom: 1.56rem;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -395,7 +413,7 @@ img {
 }
 
 .feedback__subtitle {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -404,7 +422,7 @@ img {
 }
 
 .feedback__name-user {
-  font-size: 18px;
+  font-size: 1.12rem;
   font-weight: bold;
 }
 
@@ -477,6 +495,10 @@ img {
 }
 .form__block:last-child {
   margin-right: 0;
+}
+
+.form__name-input {
+  font-size: 1rem;
 }
 
 .form__input {
@@ -643,7 +665,7 @@ img {
 }
 
 .footer__contacts {
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 .social {
@@ -665,9 +687,21 @@ img {
   width: 1.87rem;
   height: 1.87rem;
   fill: #B3B3B3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.social__icon:hover {
+  fill: #000;
 }
 
 @media (max-width: 768px) {
+  .menu,
+.contacts,
+.fixed-menu,
+.specifications__list {
+    display: none;
+  }
+
   .container {
     width: 95%;
   }
@@ -675,13 +709,6 @@ img {
   .hello-section__container {
     background-position: center top 32%;
     background-size: 45%;
-  }
-
-  .menu,
-.contacts,
-.fixed-menu,
-.specifications__list {
-    display: none;
   }
 
   .hello-section__main {
@@ -744,7 +771,7 @@ img {
   }
 
   .content__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
@@ -785,8 +812,8 @@ img {
 
   .feedback__img {
     display: block;
-    width: 130px;
-    height: 130px;
+    width: 8.12rem;
+    height: 8.12rem;
     margin-bottom: 2rem;
     margin-right: 0;
   }
@@ -885,7 +912,7 @@ img {
   }
 
   .footer__address {
-    font-size: 21px;
+    font-size: 1.31rem;
   }
 
   .contacts {
@@ -912,11 +939,6 @@ img {
     font-size: 3.34vmin;
   }
 
-  .hello-section__container {
-    background-position: center top 25%;
-    background-size: 70%;
-  }
-
   .container {
     width: 95%;
   }
@@ -927,8 +949,13 @@ img {
     right: 0;
   }
 
+  .hello-section__container {
+    background-position: center top 25%;
+    background-size: 70%;
+  }
+
   .hello-section__title {
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 1.1;
   }
 
@@ -943,7 +970,7 @@ img {
   }
 
   .hello-section__btn {
-    font-size: 19px;
+    font-size: 1.18rem;
   }
 
   .features__hero {
@@ -1026,6 +1053,7 @@ img {
   .feedback__text {
     width: 80%;
     text-align: center;
+    font-size: 1rem;
   }
 
   .form {
@@ -1070,12 +1098,16 @@ img {
   }
 
   .footer__address {
-    font-size: 18px;
+    font-size: 1.18rem;
     margin-bottom: 0.75rem;
   }
 
   .contacts__pic {
     fill: #292929;
+  }
+
+  .contacts__phone {
+    font-size: 1rem;
   }
 
   .social {

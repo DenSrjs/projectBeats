@@ -10,8 +10,10 @@ $play: "Play", Arial, Helvetica, sans-serif;
 
 //color
 $grey: #F5F5F5;
-$black: #292929;
+$black: #000;
+$Text: #292929;
 $red: #E01F3D;
+$btnActive: #CA1B36;
 
 //variable
 $containerWidth: 940px;
@@ -32,26 +34,13 @@ $mobiles: 480px;
 
 //media
 @media (max-width: $tablets) {
-  .container{
-    width: $adaptiveWidth;
-  }
-  .hello-section__container{
-    background-position: center top 32%;
-    background-size: 45%;
-  }
+
   @import "adaptive-tablet/adaptive-tablet";
 }
 
 @media  (max-width: $mobiles){
   html{
     font-size: 3.34vmin;
-  }
-  .hello-section__container{
-    background-position: center top 25%;
-    background-size: 70%;
-  }
-  .container{
-    width: $adaptiveWidth;
   }
   @import "adaptive-mobile/adaptive-mobile";
 }

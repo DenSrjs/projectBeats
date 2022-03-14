@@ -25,10 +25,8 @@
 }
 
 .footer__contacts{
-  font-size: 18px;
+  font-size: 1.12rem;
 }
-
-
 
 .social{
   display: flex;
@@ -46,4 +44,8 @@
   width: 1.87rem;
   height: 1.87rem;
   fill: #B3B3B3;
+  transition: .3s;
+  &:hover{
+    fill: $black;
+  }
 }

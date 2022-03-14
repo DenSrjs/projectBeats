@@ -1,3 +1,8 @@
+
+.container{
+  width: $adaptiveWidth;
+}
+
 //=========== hello-section =============
 .header {
   &__logo:after {
@@ -6,10 +11,16 @@
     right: 0;
   }
 }
+.hello-section__container{
+  background-position: center top 25%;
+  background-size: 70%;
+}
+
 .hello-section__title{
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.1;
 }
+
 .hello-section__main{
   transform: translate(0, 10%);
   padding: 0 14%;
@@ -20,7 +31,7 @@
 }
 
 .hello-section__btn{
-  font-size: 19px;
+  font-size: 1.18rem;
 }
 //=========== features-section ===========
 .features__hero{
@@ -101,6 +112,7 @@
 .feedback__text{
   width: 80%;
   text-align: center;
+  font-size: 1rem;
 }
 
 
@@ -134,19 +146,21 @@
   & .contacts{
     display: flex;
     justify-content: center;
-    color: $black;
+    color: $Text;
   }
 }
 
 .footer__address{
-  font-size: 18px;
+  font-size: 1.18rem;
   margin-bottom: .75rem;
 }
 
 .contacts__pic{
-  fill: $black;
+  fill: $Text;
 }
-
+.contacts__phone{
+  font-size: 1rem;
+}
 .social{
   transform: none;
   &__icon{
