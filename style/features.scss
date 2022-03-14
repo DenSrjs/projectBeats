@@ -46,30 +46,22 @@
 
 .content__img{
   margin-bottom: .56rem;
-}
-
-.content__img-wrapper{
-  display: inline-block;
   width: 8rem;
   height: 8rem;
+  display: inline-block;
   background-color: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-
 }
 
-.content__pic{
+.content__img-wrapper{
   width: 4.25rem;
-  height:4.25rem;
+  height: 4.25rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.content__pic--narrow{
-  width: 2.25rem;
 }
 
 .content{

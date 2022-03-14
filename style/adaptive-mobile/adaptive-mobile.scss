@@ -1,4 +1,27 @@
+//=========== hello-section =============
+.header {
+  &__logo:after {
+    position: absolute;
+    top: 1.93rem;
+    right: 0;
+  }
+}
+.hello-section__title{
+  font-size: 32px;
+  line-height: 1.1;
+}
+.hello-section__main{
+  transform: translate(0, 10%);
+  padding: 0 14%;
+}
 
+.hello-section__caption{
+  margin-bottom: 1rem;
+}
+
+.hello-section__btn{
+  font-size: 19px;
+}
 //=========== features-section ===========
 .features__hero{
   width: 100%;
@@ -30,7 +53,7 @@
   display: flex;
   width: 100%;
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 1.9rem;
   &:last-child{
     margin-bottom: 0;
   }
@@ -38,6 +61,10 @@
 
 .content__text{
   width: 65%;
+  padding-top: 0.6rem;
+}
+.content__title{
+  margin-bottom: 0;
 }
 
 .content__desc{
@@ -48,6 +75,7 @@
 
 .feedback__title{
   font-size: 2rem;
+  margin-bottom: 1.26rem;
 }
 .feedback__user{
   padding-top: 3.5rem;
@@ -56,13 +84,42 @@
   }
 }
 
+.feedback__img{
+  margin-bottom: 1.2rem;
+}
+
+.user-avatar__img{
+  max-width: 100%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.feedback__subtitle{
+  margin-bottom: 0.5rem;
+}
+
+.feedback__text{
+  width: 80%;
+  text-align: center;
+}
+
+
 //============= form-section ===============
 
 .form{
   padding: 0;
   &__title{
     font-size: 2rem;
+    margin-bottom: 2.22rem;
   }
+}
+
+.form__controls{
+  justify-content: center;
+}
+
+.form__row--textarea{
+  margin-bottom: 1.2rem;
 }
 
 //============== footer =====================
@@ -82,9 +139,18 @@
 }
 
 .footer__address{
+  font-size: 18px;
   margin-bottom: .75rem;
 }
 
-.contacts__img{
-  content: url("../../image/contacts/phone.png");
+.contacts__pic{
+  fill: $black;
+}
+
+.social{
+  transform: none;
+  &__icon{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

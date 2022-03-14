@@ -44,6 +44,10 @@
     }
 }
 
+.gamburger-menu{
+  display: none;
+}
+
 .contacts{
   display: flex;
   align-items: center;
@@ -99,8 +103,8 @@
 
 .specifications__img{
   margin-right: .69rem;
-  width: 2.56rem;
-  height: 2.56rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .specification__text{

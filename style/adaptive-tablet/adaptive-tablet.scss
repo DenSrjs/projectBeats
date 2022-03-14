@@ -3,8 +3,6 @@
 .fixed-menu,
 .specifications__list {display: none;}
 
-
-
 .hello-section__main{
   display: flex;
   flex-direction: column;
@@ -12,27 +10,65 @@
   align-items: center;
   height: 50%;
   width: 100%;
-  max-width: 41.56rem;
+  padding: 0 1.4rem;
 }
 
 .hello-section__title{
   text-align: center;
   width: 100%;
-  margin-bottom: 0.31rem;
+  margin-bottom: 1rem;
+  line-height: .9;
 }
 
 .hello-section__caption {
+  display: block;
   max-width: 23.18rem;
   text-align: center;
   margin-bottom: 1.43rem;
 }
-
+.gamburger-menu{
+  display: block;
+  height: 1.62rem;
+  width: 1.5rem;
+}
 //==================================== features ======================================
+.features__hero{
+  margin-bottom: 3rem;
+}
 
 .content__item{
+  padding: 0;
   &:before{
     display: none;
   }
+  &:nth-child(2){
+    flex: 1.5;
+  }
+}
+
+.content__img{
+  margin-bottom: .9rem;
+}
+
+.content__title{
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.features__title{
+  margin-bottom: 0;
+}
+
+.features__subtitle{
+  padding: 0 10%;
+}
+
+.content__desc{
+  padding: 0;
+}
+
+.content__desc--narrow{
+  padding: 0 2rem;
 }
 
 //====================================== feedback =====================================
@@ -42,7 +78,10 @@
   justify-content: center;
   align-items: center;
   padding: 3.5rem 1.5rem 1.5rem 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  &:before{
+    transform: translate(-50%, -50%);
+  }
 }
 
 .feedback__img{
@@ -50,6 +89,7 @@
   width: 130px;
   height: 130px;
   margin-bottom: 2rem;
+  margin-right: 0;
 }
 
 .feedback__avatar{
@@ -74,27 +114,69 @@
 .form{
   flex-direction: column;
   padding: 0 8rem;
+  &__title{
+    margin-bottom: 1.12rem;
+  }
+  &__col{
+    margin-right: 0;
+    margin-bottom: .9rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
-.form__col{
-  margin-right: 0;
-  display: flex;
-  flex-direction: column;
+.form__row{
+  margin-bottom: .9rem;
+  &:last-child{
+    margin-bottom: 0;
+  }
+
+}
+.form__input{
+  height: 2.25rem;
+  padding: .2rem;
+}
+
+.form__row--textarea{
+  margin-bottom: 1.5rem;
+}
+
+.form--mb{
+  margin-bottom: 2.5rem;
+}
+
+.form__textarea{
+  height: 5.12rem;
 }
 .form__button{
   justify-content: center;
 }
 .form__btn-reset{
   color: red;
+  padding: 0 .9rem;
 }
 
 //========================================== footer =====================================
+.contacts--visible{
+  display: block;
+}
+.footer.contacts{
+  display: block;
+}
+.footer__address{
+  font-size: 21px;
+}
+.contacts{
+  color: $red;
+}
+.contacts__phone{
+  font-size: 18px;
+}
+.contacts__pic{
+  width: .75rem;
+  height: .75rem;
+  fill: $red;
+}
+.social{
+  transform: translateX(-2rem);
+}
 
-.footer__contacts{
-  & .contacts{
-    display: flex;
-    color: red;
-  }
-}
-.contacts__img{
-  content: url("../../image/contacts/red_phone.png");
-}
