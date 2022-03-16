@@ -11,9 +11,10 @@ $play: "Play", Arial, Helvetica, sans-serif;
 //color
 $grey: #F5F5F5;
 $black: #000;
-$Text: #292929;
+$title: #292929;
 $red: #E01F3D;
 $btnActive: #CA1B36;
+$text: #666;
 
 //variable
 $containerWidth: 940px;
@@ -27,15 +28,17 @@ $mobiles: 480px;
 @import "base";
 @import "hello-section";
 @import "features";
+@import "shop";
 @import "feedback";
 @import "form";
 @import "fixed-menu";
 @import "map";
+@import "fullscreen-menu/fullscreen-menu";
 
 //media
 @media (max-width: $tablets) {
-
   @import "adaptive-tablet/adaptive-tablet";
+
 }
 
 @media  (max-width: $mobiles){

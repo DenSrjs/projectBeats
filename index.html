@@ -131,25 +131,85 @@
                     </ul>
                 </div>
             </section>
-<!--            <section class="shop">
+            <section class="shop section">
                 <div class="container shop__box">
+                    <div class="slide">
+                        <svg class="slide__arrow">
+                            <use xlink:href="sprite.svg#arrowLeft"></use>
+                        </svg>
+                    </div>
+                    <div class="shop__block">
+                        <img src="./image/shop-section/shopHeadphones.png" alt="" class="shop__img">
+                    </div>
                     <div class="shop__content">
-                        <div class="shop__img">
-                            <img src="" alt="" class="shop__pic">
+                        <div class="hidden-specifications">
+                            <svg class="hidden-specifications__svg">
+                                <use  xlink:href="sprite.svg#gearWheel"></use>
+                            </svg>
+                            <table class="table">
+                                <tbody class="tbody">
+                                <tr class="table__tr">
+                                    <td class="table__td table__td-icon">
+                                        <svg class="table__icon">
+                                            <use xlink:href="sprite.svg#grape"></use>
+                                        </svg>
+                                    </td>
+                                    <td class="table__td">Bluetooth</td>
+                                    <td class="table__td">4.0</td>
+                                </tr>
+                                <tr class="table__tr">
+                                    <td class="table__td table__td-icon">
+                                        <svg class="table__icon">
+                                            <use xlink:href="sprite.svg#nut"></use>
+                                        </svg>
+                                    </td>
+                                    <td class="table__td">Дальность </td>
+                                    <td class="table__td">12 м</td>
+                                </tr>
+                                <tr class="table__tr">
+                                    <td class="table__td table__td-icon">
+                                        <svg class="table__icon">
+                                            <use xlink:href="sprite.svg#almond"></use>
+                                        </svg>
+                                    </td>
+                                    <td class="table__td">Зарядка</td>
+                                    <td class="table__td">3 ч</td>
+                                </tr>
+                                <tr class="table__tr">
+                                    <td class="table__td table__td-icon">
+                                        <svg class="table__icon">
+                                            <use xlink:href="sprite.svg#washing-powder"></use>
+                                        </svg>
+                                    </td>
+                                    <td class="table__td">Вес</td>
+                                    <td class="table__td">215гр</td>
+                                </tr>
+                                <tr class="table__tr">
+                                    <td class="table__td table__td-icon">
+                                        <svg class="table__icon">
+                                            <use xlink:href="sprite.svg#apitherapy"></use>
+                                        </svg>
+                                    </td>
+                                    <td class="table__td">Гарантия</td>
+                                    <td class="table__td">1 год</td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
+
                         <h2 class="shop__title">beats solo 3. цвет «атласное серебро»</h2>
-                        <p class="shop__text">
+                        <p class="shop__desc">
                             Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их
                             и поднесите к своему iPhone — они мгновенно подключатся к нему.
                         </p>
                         <ul class="shop__list">
                             <li class="shop__item">
-                                <div class="shop__text">Зарядка</div>
-                                <div class="shop__text-bold">2  часа</div>
+                                <div class="shop__heading">Зарядка</div>
+                                <div class="shop__text">2  часа</div>
                             </li>
                             <li class="shop__item">
-                                <div class="shop__text">Вес</div>
-                                <div class="shop__text-bold">215 грамм</div>
+                                <div class="shop__heading">Вес</div>
+                                <div class="shop__text">215 грамм</div>
                             </li>
                         </ul>
                         <div class="shop__buy">
@@ -157,9 +217,14 @@
                             <button class="button shop__btn">заказать</button>
                         </div>
                     </div>
+                    <div class="slide slide__box--position">
+                        <svg class="slide__arrow">
+                            <use xlink:href="sprite.svg#arrowRight"></use>
+                        </svg>
+                    </div>
                 </div>
             </section>
-            <section class="team">
+  <!--          <section class="team">
                 <div class="container team__box">
                     <h2 class="team__title"></h2>
                     <ul class="team__list">
@@ -411,6 +476,22 @@
             </section>
         </div>
     </div>
+    <div class="screen-menu">
+        <svg class="close">
+            <use xlink:href="sprite.svg#close"></use>
+        </svg>
+        <nav class="menu container">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Наушники</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Команда</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Цвета</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Как мы работаем</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
     <nav class="fixed-menu">
         <ul class="fixed-menu__list">
             <li class="fixed-menu__item ">
@@ -442,5 +523,6 @@
             </li>
         </ul>
     </nav>
+    <script src="./script/menu.js"></script>
 </body>
 </html>

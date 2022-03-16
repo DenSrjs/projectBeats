@@ -82,6 +82,41 @@
   padding: 0;
 }
 
+//=============== form ========================
+
+.shop__block{
+  margin-bottom: 1.62rem;
+}
+
+.shop__title{
+  max-width: 69%;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.shop__desc{
+  max-width: 89%;
+  margin-bottom: 1.55rem;
+}
+
+.shop__text{
+  font-size: 1.12rem;
+}
+
+.shop__price{
+  font-size: 2rem;
+}
+
+.slide{
+  top: 21.6%;
+  left: .5%;
+}
+
+.slide__box--position{
+  left: 89.5%;
+}
+
+
 //============ feedback-section ==============
 
 .feedback__title{
@@ -146,7 +181,7 @@
   & .contacts{
     display: flex;
     justify-content: center;
-    color: $Text;
+    color: $title;
   }
 }
 
@@ -156,7 +191,7 @@
 }
 
 .contacts__pic{
-  fill: $Text;
+  fill: $title;
 }
 .contacts__phone{
   font-size: 1rem;

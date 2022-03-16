@@ -79,6 +79,56 @@
   padding: 0 2rem;
 }
 
+//====================================== shop =========================================
+
+.shop__box{
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop__block{
+  width: 19.12rem;
+  height: 19.12rem;
+  flex-shrink: 0;
+  margin-right: 0;
+  margin-bottom: 3rem;
+}
+
+.shop__title{
+  font-size: 1.75rem;
+  margin-bottom: .87rem;
+}
+
+.hidden-specifications{
+  display: none;
+}
+
+.shop__content{
+  align-items: center;
+}
+
+.shop__desc{
+  text-align: center;
+  max-width: 84%;
+}
+
+.shop__list{
+  justify-content: center;
+}
+
+.shop__price{
+  font-size: 2.5rem;
+}
+
+.slide{
+  top: 25%;
+  left: 19%;
+}
+
+.slide__box--position{
+  left: 75%;
+}
+
 //====================================== feedback =====================================
 
 .feedback__user{
@@ -193,4 +243,5 @@
 .social{
   transform: translateX(-2rem);
 }
+
 

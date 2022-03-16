@@ -7,7 +7,7 @@ body{
   font-size: $baseFontSize;
   font-family: $play;
   line-height: 1.42;
-  color: $Text;
+  color: $title;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -105,4 +105,8 @@ img{
 .form__btn-reset:hover{
   background: none;
   color: red;
+}
+
+.fullscreeen-menu{
+  display: none;
 }

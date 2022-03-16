@@ -49,11 +49,16 @@
   text-align: center;
   margin-bottom: 1.43rem;
 }
+/*================ features =================*/
 
 .content__item:before {
   display: none;
 }
 
+/*=================== shop =================*/
+
+
+/*================== feedback =============*/
 .feedback__user {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -118,6 +123,7 @@
   margin-bottom: 1rem;
 }
 
+/*================== form ====================*/
 .form {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
