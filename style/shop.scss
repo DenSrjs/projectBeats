@@ -86,7 +86,9 @@
   font-size: 1rem;
   color: $text;
 }
-
+.slider__item{
+  display: flex;
+}
 .shop__desc{
   margin-bottom: 1.25rem;
   max-width: 81%;
@@ -117,13 +119,13 @@
   margin-right: 1.37rem;
 }
 
-.slide__arrow{
+.prev-next__arrow{
   width: .87rem;
   height: 1.75rem;
   fill: none;
 }
 
-.slide{
+.prev-next{
   position: absolute;
   top: 46%;
   left: -5%;
@@ -133,7 +135,7 @@
   margin-right: 2rem;
 }
 
-.slide__box--position{
+.prev-next--position{
     margin-right: 0;
     margin-left: 2rem;
     left: 94%;

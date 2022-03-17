@@ -80,8 +80,7 @@
 }
 
 //====================================== shop =========================================
-
-.shop__box{
+.slider__item{
   flex-direction: column;
   align-items: center;
 }
@@ -120,12 +119,12 @@
   font-size: 2.5rem;
 }
 
-.slide{
+.prev-next{
   top: 25%;
   left: 19%;
 }
 
-.slide__box--position{
+.prev-next--position{
   left: 75%;
 }
 
