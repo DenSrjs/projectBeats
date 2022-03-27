@@ -652,8 +652,7 @@ button {
   background: #F8FAF9;
   margin-bottom: 0.87rem;
   overflow: hidden;
-  min-height: 21.75rem;
-  min-width: 58.75rem;
+  padding: 2.62rem;
 }
 .feedback__user:before {
   content: "";
@@ -674,13 +673,14 @@ button {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  top: 2.62rem;
-  left: 2.62rem;
+  top: 0;
+  left: 0;
   opacity: 0;
 }
 
 .feedback__active {
   opacity: 1;
+  position: static;
 }
 
 .feedback__title {
@@ -743,31 +743,24 @@ button {
 }
 
 .user-avatar__item {
+  border-radius: 50%;
   width: 4.62rem;
   height: 4.62rem;
-  border-radius: 50%;
+  margin-right: 0.37rem;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-right: 0.37rem;
 }
 .user-avatar__item__item:last-child {
   margin-right: 0;
 }
 
-.user-avatar__item--active {
-  border: 5px solid red;
-}
-
-.user-avatar__img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .user-avatar__photo {
   width: 100%;
   height: 100%;
+}
+
+.user-avatar__item--active {
+  border: 5px solid red;
 }
 
 .form-data {
@@ -1345,8 +1338,7 @@ button {
 
   .feedback__user {
     margin-bottom: 3rem;
-    min-width: 45.25rem;
-    min-height: 26.12rem;
+    padding-top: 3.5rem;
   }
   .feedback__user:before {
     -webkit-transform: translate(-50%, -50%);
@@ -1354,8 +1346,8 @@ button {
   }
 
   .feedback__item {
-    top: 3.5rem;
-    left: 0.8rem;
+    top: 0;
+    left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1678,15 +1670,10 @@ button {
   }
 
   .feedback__user {
-    min-width: 28.71rem;
-    min-height: 31.18rem;
+    padding-top: 3.5rem;
   }
   .feedback__user:before {
     display: none;
-  }
-
-  .feedback__item {
-    top: 3.5rem;
   }
 
   .feedback__img {
@@ -1698,21 +1685,20 @@ button {
   }
 
   .feedback__text {
-    width: 80%;
     text-align: center;
     font-size: 1rem;
   }
 
-  .user-avatar__img {
+  .user-avatar__item {
     width: 4rem;
     height: 4rem;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .user-avatar__photo {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
   }
 
   .form {

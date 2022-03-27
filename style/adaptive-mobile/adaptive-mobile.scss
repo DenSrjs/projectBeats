@@ -174,15 +174,10 @@
   margin-bottom: 1.26rem;
 }
 .feedback__user{
-  min-width: 28.71rem;
-  min-height: 31.18rem;
+  padding-top: 3.5rem;
   &:before{
     display: none;
   }
-}
-
-.feedback__item{
-  top: 3.5rem;
 }
 
 .feedback__img{
@@ -194,24 +189,20 @@
 }
 
 .feedback__text{
-  width: 80%;
   text-align: center;
   font-size: 1rem;
 }
 
-.user-avatar__img{
+.user-avatar__item{
   width: 4rem;
   height: 4rem;
-
+  object-fit: cover;
 }
 
 .user-avatar__photo{
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
-
-
 
 //============= form-section ===============
 
