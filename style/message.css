@@ -1,0 +1,15 @@
+.message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #313131;
+}
+
+.message__box {
+  width: 19.31rem;
+  height: 11rem;
+  margin: 0 auto;
+  background: #fff;
+}

@@ -1,7 +1,12 @@
 .menu,
 .contacts,
 .fixed-menu,
-.specifications__list {display: none;}
+.specifications__list,
+.desctop-team-list{display: none;}
+
+.mobile-team-list{
+  display: flex;
+}
 
 .container{
   width: $adaptiveWidth;
@@ -80,12 +85,20 @@
 }
 
 //====================================== shop =========================================
+.slider-box{
+  overflow: hidden;
+}
+
 .slider__item{
   flex-direction: column;
   align-items: center;
 }
 
 .shop__block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 19.12rem;
   height: 19.12rem;
   flex-shrink: 0;
@@ -104,11 +117,13 @@
 
 .shop__content{
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .shop__desc{
   text-align: center;
-  max-width: 84%;
+  padding: 0 3rem;
 }
 
 .shop__list{
@@ -128,17 +143,59 @@
   left: 75%;
 }
 
+//====================================== team =========================================
+
+.team__list{
+  top: 60px;
+  left: 119px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__item{
+  margin-bottom: 1.56rem;
+  margin-right: 0;
+}
+
+.team__content{
+  padding: 0;
+}
+
+.team__name{
+  font-size: 1.31rem;
+}
+
+.triangle-popup{
+  fill: #365A49;
+}
+
+.team__general{
+  position: relative;
+  top: .43rem;
+  left: 0;
+}
+.select{
+  height: 25rem;
+}
+
+
 //====================================== feedback =====================================
 
 .feedback__user{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 3.5rem 1.5rem 1.5rem 1.5rem;
   margin-bottom: 3rem;
+  min-width: 45.25rem;
+  min-height: 26.12rem;
   &:before{
     transform: translate(-50%, -50%);
   }
+}
+
+.feedback__item{
+  top: 3.5rem;
+  left: .8rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .feedback__img{
@@ -165,6 +222,12 @@
 
 .feedback__subtitle, .feedback__text{
   margin-bottom: 1rem;
+}
+
+.feedback__text{
+  width: 100%;
+  padding: 0 1.43rem;
+  text-align: center;
 }
 
 //=============================================== form =============================

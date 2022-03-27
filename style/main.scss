@@ -29,11 +29,13 @@ $mobiles: 480px;
 @import "hello-section";
 @import "features";
 @import "shop";
+@import "team";
 @import "feedback";
 @import "form";
 @import "fixed-menu";
 @import "map";
 @import "fullscreen-menu/fullscreen-menu";
+@import "message";
 
 //media
 @media (max-width: $tablets) {

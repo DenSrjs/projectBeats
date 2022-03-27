@@ -33,7 +33,54 @@
 .hello-section__btn{
   font-size: 1.18rem;
 }
+
+//====================================== team =========================================
+.team__item:first-child .team__content{
+  padding-top: 0;
+}
+
+.team__title{
+  font-size: 2rem;
+  margin-bottom: 2.25rem;
+}
+
+.team__list{
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__item{
+  margin: 0;
+  padding-top: .37rem;
+  &:first-child{
+    padding-top: 0;
+  }
+}
+
+.team__name{
+  font-size: 1.31rem;
+}
+
+.team__context{
+  margin-bottom: .81rem;
+}
+
+.team__block{
+  margin-bottom: 1.12rem;
+}
+
+.team__postion{
+  font-size: 1.12rem;
+  font-weight: bold;
+  margin-bottom: .81rem;
+}
+
+.triangle-popup{
+  fill: #E01F3D;
+}
+
 //=========== features-section ===========
+
 .features__hero{
   width: 100%;
 }
@@ -89,14 +136,17 @@
 }
 
 .shop__title{
-  max-width: 69%;
   text-align: center;
   line-height: 1.1;
 }
 
+.shop__content{
+  max-width: 412px;
+}
+
 .shop__desc{
-  max-width: 89%;
   margin-bottom: 1.55rem;
+  padding: 0;
 }
 
 .shop__text{
@@ -124,20 +174,19 @@
   margin-bottom: 1.26rem;
 }
 .feedback__user{
-  padding-top: 3.5rem;
+  min-width: 28.71rem;
+  min-height: 31.18rem;
   &:before{
     display: none;
   }
 }
 
-.feedback__img{
-  margin-bottom: 1.2rem;
+.feedback__item{
+  top: 3.5rem;
 }
 
-.user-avatar__img{
-  max-width: 100%;
-  width: 4rem;
-  height: 4rem;
+.feedback__img{
+  margin-bottom: 1.5rem;
 }
 
 .feedback__subtitle{
@@ -149,6 +198,19 @@
   text-align: center;
   font-size: 1rem;
 }
+
+.user-avatar__img{
+  width: 4rem;
+  height: 4rem;
+
+}
+
+.user-avatar__photo{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 
 //============= form-section ===============
