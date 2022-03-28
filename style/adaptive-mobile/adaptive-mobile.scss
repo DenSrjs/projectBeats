@@ -41,7 +41,7 @@
 
 .team__title{
   font-size: 2rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .team__list{
@@ -50,29 +50,30 @@
 }
 
 .team__item{
-  margin: 0;
-  padding-top: .37rem;
-  &:first-child{
-    padding-top: 0;
-  }
+  margin-top: .37rem;
+  margin-bottom: .62rem;
 }
 
-.team__name{
-  font-size: 1.31rem;
-}
-
-.team__context{
-  margin-bottom: .81rem;
+.team__avatar{
+  object-fit: contain;
 }
 
 .team__block{
-  margin-bottom: 1.12rem;
+  //margin-bottom: 1.06rem;
+  height: 11.31rem;
+  width: 11.37rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .team__postion{
   font-size: 1.12rem;
   font-weight: bold;
-  margin-bottom: .81rem;
+  margin-bottom: .5rem;
+  width: auto;
+  max-width: 16.87rem;
 }
 
 .triangle-popup{
@@ -181,16 +182,24 @@
 }
 
 .feedback__img{
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.18rem;
 }
 
 .feedback__subtitle{
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.43rem;
+}
+
+.feedback__user{
+  padding: 3.56rem 1.56rem 2.25rem;
+  margin-bottom: 2.68rem;
 }
 
 .feedback__text{
   text-align: center;
   font-size: 1rem;
+  padding: 0;
+  line-height: 1.2;
+  margin-bottom: .62rem;
 }
 
 .user-avatar__item{

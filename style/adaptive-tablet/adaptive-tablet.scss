@@ -16,6 +16,14 @@
   background-size: 45%;
 }
 
+.header{
+  padding-right: 0;
+}
+
+.menu{
+  margin-right: 0;
+}
+
 .hello-section__main{
   display: flex;
   flex-direction: column;
@@ -144,16 +152,17 @@
 }
 
 //====================================== team =========================================
+.team__title{
+  margin-bottom: 1.31rem;
+}
 
 .team__list{
-  top: 60px;
-  left: 119px;
   flex-direction: column;
   align-items: center;
 }
 
 .team__item{
-  margin-bottom: 1.56rem;
+  margin-bottom: 1.25rem;
   margin-right: 0;
 }
 
@@ -161,8 +170,16 @@
   padding: 0;
 }
 
+.team__block{
+  margin-bottom: 1.75rem ;
+}
+
 .team__name{
-  font-size: 1.31rem;
+  font-size: 1.12rem;
+}
+
+.team__postion{
+  font-size: 1.12rem;
 }
 
 .triangle-popup{
@@ -175,15 +192,16 @@
   left: 0;
 }
 .select{
-  height: 25rem;
+  height: 26rem;
 }
 
 
 //====================================== feedback =====================================
 
 .feedback__user{
-  margin-bottom: 3rem;
+  margin-bottom: 1.87rem;
   padding-top: 3.5rem;
+  min-height: 29rem;
   &:before{
     transform: translate(-50%, -50%);
   }
